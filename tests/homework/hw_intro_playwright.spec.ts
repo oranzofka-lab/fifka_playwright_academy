@@ -1,5 +1,5 @@
 import { test } from "@playwright/test";
-import { title } from "process";
+
 
 test("Vlozeni do kosiku", async ({ page }) => {
   await page.goto("https://tredgate.com/eshop/");
