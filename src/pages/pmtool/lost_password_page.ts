@@ -1,7 +1,7 @@
 import { Locator, Page } from "@playwright/test";
 import { LoginPage } from "./login_page.ts";
 
-export class LostPassword {
+export class LostPasswordPage {
   readonly page: Page;
   readonly userNameInput: Locator;
   readonly emailInput: Locator;
